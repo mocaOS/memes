@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.moca-logo {
+  width: 150px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
