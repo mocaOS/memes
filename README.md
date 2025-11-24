@@ -23,6 +23,7 @@ Over a year of capturing moments, inside jokes, and the spirit of the Art DeCC0s
 
 - **📂 Category Browser** - Explore memes organized by era and significance
 - **🎲 Randomizer** - Get a random meme from across the entire collection
+- **🔍 Full-Screen View** - View any meme at full size with a dedicated full-screen mode
 - **📋 One-Click Copy** - Copy memes directly to your clipboard to share anywhere
 - **⬇️ Easy Downloads** - Download any meme with a single click
 - **🎨 MOCA Design** - Clean monochrome UI with the MOCA aesthetic
@@ -78,8 +79,8 @@ public/                          # Static assets (meme images)
 src/
 ├── components/
 │   ├── CategoryCard.vue         # Category display card
-│   ├── MemeImage.vue           # Individual meme with copy/download
-│   └── MemeModal.vue           # Full-screen category viewer
+│   ├── MemeImage.vue           # Individual meme with full-screen view, copy, and download
+│   └── MemeModal.vue           # Category viewer modal
 ├── App.vue                     # Main app component
 ├── categories.json             # Category configuration
 ├── memes-data.json             # Generated meme manifest
@@ -133,10 +134,12 @@ npm run generate-memes
 
 ## 🎯 Usage Tips
 
-- **Hover over any meme** to reveal copy and download buttons
+- **Hover over any meme** to reveal full-screen, copy, and download buttons
+- **Click the magnifying glass** (🔍) to view any meme in full-screen mode
 - **Click the dice button** (🎲) for a random meme from any era
 - **Click a category card** to view all memes from that period
-- **Press ESC or click outside** the modal to close it
+- **Press ESC** to close full-screen view or category modal (closes innermost first)
+- **Click outside** any modal to close it
 - **Copy to clipboard** pastes the actual image into Discord, Twitter, Slack, etc.
 
 ## 🏛️ The Vibe Studio
