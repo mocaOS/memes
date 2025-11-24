@@ -1,8 +1,8 @@
-# 🎭 Art DeCC0s Meme Browser
+# Art DeCC0s Meme Browser
 
-**A Vibe Studio Application**
+A minimalist meme browser showcasing Art Decc0s and MOCA related memes created by the community. From the early mint days through the revolutionary Codex launch. Built for the Museum of Crypto Art's Vibe Studio ecosystem.
 
-A minimalist meme browser showcasing over a year of Art DeCC0s community memes, from the early mint days through the revolutionary Codex launch. Built for the Museum of Crypto Art's Vibe Studio ecosystem.
+Launch the Meme Browser via [https://memes.decc0s.com](https://memes.decc0s.com)
 
 ## About Art DeCC0s
 
