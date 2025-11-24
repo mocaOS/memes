@@ -36,7 +36,7 @@
       <Transition name="fullscreen">
         <div
           v-if="isFullScreen"
-          class="fixed inset-0 z-[9999] bg-black bg-opacity-95 flex items-center justify-center p-4"
+          class="fixed inset-0 z-[9999] bg-black bg-opacity-95 flex items-center justify-center p-0"
           @click.self="closeFullScreen"
         >
           <div class="relative max-w-full max-h-full flex items-center justify-center">
@@ -47,7 +47,7 @@
             />
             <button
               @click="closeFullScreen"
-              class="absolute top-4 right-4 bg-white text-black w-12 h-12 rounded-full hover:bg-gray-200 transition-colors font-bold text-2xl flex items-center justify-center"
+              class="absolute top-1 right-1 bg-white text-black w-12 h-12 rounded-full hover:bg-gray-200 transition-colors font-bold text-2xl flex items-center justify-center"
               title="Close full screen"
             >
               ×
