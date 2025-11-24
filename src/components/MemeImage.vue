@@ -7,6 +7,14 @@
       @click="$emit('click')"
     />
     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-200 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100">
+
+      <button
+        @click.stop="openFullScreen"
+        class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition-colors font-semibold"
+        title="View full screen"
+      >
+        🔍
+      </button>
       <button
         @click.stop="copyToClipboard"
         class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition-colors font-semibold"
@@ -22,6 +30,32 @@
         ⬇️
       </button>
     </div>
+
+    <!-- Full Screen Overlay -->
+    <Teleport to="body">
+      <Transition name="fullscreen">
+        <div
+          v-if="isFullScreen"
+          class="fixed inset-0 z-[9999] bg-black bg-opacity-95 flex items-center justify-center p-4"
+          @click.self="closeFullScreen"
+        >
+          <div class="relative max-w-full max-h-full flex items-center justify-center">
+            <img
+              :src="imagePath"
+              :alt="alt"
+              class="max-w-full max-h-screen object-contain"
+            />
+            <button
+              @click="closeFullScreen"
+              class="absolute top-4 right-4 bg-white text-black w-12 h-12 rounded-full hover:bg-gray-200 transition-colors font-bold text-2xl flex items-center justify-center"
+              title="Close full screen"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
   </div>
 </template>
 
@@ -39,7 +73,29 @@ export default {
     }
   },
   emits: ['click'],
+  data() {
+    return {
+      isFullScreen: false
+    }
+  },
   methods: {
+    openFullScreen() {
+      this.isFullScreen = true;
+      document.body.style.overflow = 'hidden';
+      document.addEventListener('keydown', this.handleKeydown, true);
+    },
+    closeFullScreen() {
+      this.isFullScreen = false;
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', this.handleKeydown, true);
+    },
+    handleKeydown(e) {
+      if (e.key === 'Escape' && this.isFullScreen) {
+        e.stopPropagation();
+        e.preventDefault();
+        this.closeFullScreen();
+      }
+    },
     async copyToClipboard() {
       try {
         // Check if the Clipboard API is supported
@@ -133,7 +189,25 @@ export default {
         }, 300);
       }, 2000);
     }
+  },
+  beforeUnmount() {
+    if (this.isFullScreen) {
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', this.handleKeydown, true);
+    }
   }
 }
 </script>
+
+<style scoped>
+.fullscreen-enter-active,
+.fullscreen-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fullscreen-enter-from,
+.fullscreen-leave-to {
+  opacity: 0;
+}
+</style>
 
