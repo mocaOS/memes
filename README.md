@@ -151,9 +151,9 @@ The Vibe Studio is a navigable network of innovations, experiments, and communit
 ## 🔗 Links
 
 - **[Museum of Crypto Art](https://museumofcryptoart.com/)** - The OG Museum
-- **[The Vibe Studio](https://vibe.moca.studio/)** - MOCA's application hub
-- **[The Codex](https://codex.moca.studio/)** - 100M+ words of DeCC0 personalities
-- **[Art DeCC0s](https://decc0s.museumofcryptoart.com/)** - The official collection
+- **[The Vibe Studio](https://vibe.museumofcryptoart.com/)** - MOCA's application hub
+- **[The Codex](https://codex.decc0s.com/)** - 100M+ words of DeCC0 personalities
+- **[Adopt DeCC0s](https://adopt.decc0s.com/)** - Launch the Adoption Center
 
 ## 📝 License
 
