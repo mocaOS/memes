@@ -1,4 +1,4 @@
-# Art DeCC0s Meme Browser
+# Meme Browser
 
 A minimalist meme browser showcasing Art Decc0s and MOCA related memes created by the community. From the early mint days through the revolutionary Codex launch. Built for the Museum of Crypto Art's Vibe Studio ecosystem.
 
