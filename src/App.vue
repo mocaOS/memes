@@ -41,6 +41,13 @@
         </div>
       </div>
 
+      <!-- Footer -->
+      <footer class="mt-16 mb-8 text-center">
+        <p class="text-lg">
+          Dive into the <a href="https://vibe.museumofcryptoart.com/" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline transition-colors">Vibe Studio</a> to find lots of other apps and resources around MOCA and Art Decc0s.
+        </p>
+      </footer>
+
       <!-- Modal -->
       <MemeModal
         :is-open="modalOpen"
