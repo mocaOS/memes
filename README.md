@@ -40,8 +40,7 @@ Over a year of capturing moments, inside jokes, and the spirit of the Art DeCC0s
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd memes
+git clone
 ```
 
 2. Install dependencies:
@@ -73,25 +72,24 @@ npm run preview
 ## 📁 Project Structure
 
 ```
-memes/
-├── public/                          # Static assets (meme images)
-│   ├── early days during mint/      # Category 1 memes
-│   └── late 2025 during codex launch/  # Category 2 memes
-├── src/
-│   ├── components/
-│   │   ├── CategoryCard.vue         # Category display card
-│   │   ├── MemeImage.vue           # Individual meme with copy/download
-│   │   └── MemeModal.vue           # Full-screen category viewer
-│   ├── App.vue                     # Main app component
-│   ├── categories.json             # Category configuration
-│   ├── memes-data.json             # Generated meme manifest
-│   ├── main.js                     # App entry point
-│   └── style.css                   # Global styles
-├── generate-memes.js               # Script to generate meme manifest
-├── index.html
-├── package.json
-├── vite.config.js
-└── tailwind.config.js
+public/                          # Static assets (meme images)
+├── early days during mint/      # Category 1 memes
+└── late 2025 during codex launch/  # Category 2 memes
+src/
+├── components/
+│   ├── CategoryCard.vue         # Category display card
+│   ├── MemeImage.vue           # Individual meme with copy/download
+│   └── MemeModal.vue           # Full-screen category viewer
+├── App.vue                     # Main app component
+├── categories.json             # Category configuration
+├── memes-data.json             # Generated meme manifest
+├── main.js                     # App entry point
+└── style.css                   # Global styles
+generate-memes.js               # Script to generate meme manifest
+index.html
+package.json
+vite.config.js
+tailwind.config.js
 ```
 
 ## 🎨 Adding New Categories
