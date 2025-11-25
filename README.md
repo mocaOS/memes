@@ -1,4 +1,4 @@
-# 🎭 Meme Studio
+𓄂@artdecc0s𓄘
 
 **A Vibe Studio Application**
 
