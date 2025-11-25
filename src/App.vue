@@ -95,7 +95,7 @@
 
       <!-- Categories Section -->
       <div>
-        <h2 class="text-3xl font-bold mb-8 text-center">browse every meme from any era</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">BROWSE DeCC0 ERAS</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <CategoryCard
             v-for="category in categories"
