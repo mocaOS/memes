@@ -109,7 +109,8 @@
       <!-- Footer -->
       <footer class="mt-16 mb-8 text-center">
         <p class="text-lg">
-          Dive into the <a href="https://vibe.museumofcryptoart.com/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-300 underline transition-colors">Vibe Studio</a> to find lots of other apps and resources around MOCA and Art Decc0s.
+        𓄂 <a href="https://vibe.museumofcryptoart.com/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-300 underline transition-colors">https://vibe.museumofcryptoart.com</a> 𓄘<br><br>
+          Enter the studio, find other apps and resources around MOCA and dig into Art Decc0s.
         </p>
       </footer>
 
