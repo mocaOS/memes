@@ -1,8 +1,10 @@
-# Meme Browser
+# 🎭 Meme Studio
 
-A minimalist meme browser showcasing Art Decc0s and MOCA related memes created by the community. From the early mint days through the revolutionary Codex launch. Built for the Museum of Crypto Art's Vibe Studio ecosystem.
+**A Vibe Studio Application**
 
-Launch the Meme Browser via [https://memes.decc0s.com](https://memes.decc0s.com)
+A minimalist meme studio showcasing over a year of Art DeCC0s community memes, from the early mint days through the revolutionary Codex launch. Built for the Museum of Crypto Art's Vibe Studio ecosystem.
+
+Launch Meme Studio at [https://memes.decc0s.com](https://memes.decc0s.com)
 
 ## About Art DeCC0s
 
@@ -10,7 +12,7 @@ Art DeCC0s are the Museum of Crypto Art's 10,000-piece PFP collection—a love-l
 
 The Codex represents over 105 million words of personality data, making each of the 10,000 DeCC0s not just a profile picture, but an AI agent with beliefs, connections, culture, histories, and distinct perspectives on crypto art and the world.
 
-## About This Meme Browser
+## About Meme Studio
 
 This application chronicles the Art DeCC0s journey through community-created memes, organized into distinct eras:
 
@@ -144,7 +146,7 @@ npm run generate-memes
 
 ## 🏛️ The Vibe Studio
 
-This meme browser is part of MOCA's Vibe Studio—the nexus for everything the Museum of Crypto Art has created, is creating, and will create. The Vibe Studio is MOCA's cumulative UI/UX hub where all offerings live: The Codex, The Adoption Center, The DeCC0 Agent Launcher, community applications, and now this meme browser.
+Meme Studio is part of MOCA's Vibe Studio—the nexus for everything the Museum of Crypto Art has created, is creating, and will create. The Vibe Studio is MOCA's cumulative UI/UX hub where all offerings live: The Codex, The Adoption Center, The DeCC0 Agent Launcher, community applications, and Meme Studio.
 
 The Vibe Studio is a navigable network of innovations, experiments, and community creations—a gathering place for what crypto art culture builds.
 
@@ -162,7 +164,7 @@ This project is CC0 - fully open source and available for any use, just like Art
 ## 🙏 Credits
 
 Memes collected and curated by the Art DeCC0s community over a year of adventures.
-Meme browser built with ❤️ by the MOCA technical team for the Vibe Studio.
+Meme Studio built with ❤️ by the MOCA technical team for the Vibe Studio.
 
 Special thanks to all the community members who created and shared these memes throughout the Art DeCC0s journey.
 
